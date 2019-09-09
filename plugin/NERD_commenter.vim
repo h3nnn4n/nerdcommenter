@@ -13,7 +13,7 @@
 "
 " ============================================================================
 
-" Section: script init stuff {{{1
+" Section: script init stuff 
 if exists("loaded_nerd_comments")
     finish
 endif
@@ -23,7 +23,7 @@ if v:version < 700
 endif
 let loaded_nerd_comments = 1
 
-" Function: s:InitVariable() function {{{2
+" Function: s:InitVariable() function 
 " This function is used to initialise a given variable to a given value. The
 " variable is only initialised if it does not exist prior
 "
@@ -247,6 +247,7 @@ let s:delimiterMap = {
     \ 'julia': { 'left': '# ', 'leftAlt': '#=', 'rightAlt': '=#' },
     \ 'kivy': { 'left': '#' },
     \ 'kix': { 'left': ';' },
+    \ 'kos': { 'left': '// ', 'leftAlt': '/* ', 'rightAlt': ' */' },
     \ 'kscript': { 'left': '//', 'leftAlt': '/*', 'rightAlt': '*/' },
     \ 'lace': { 'left': '--' },
     \ 'laravel': { 'left': '{{--', 'right': '--}}' },
